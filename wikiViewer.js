@@ -24,7 +24,7 @@ function displayWikiSearchResult(result) {
             iLink.textContent = result.query.search[i].title;
         
         var iSnippet = document.createElement('p');
-            iSnippet.textContent = result.query.search[i].snippet;
+            $(iSnippet).html(result.query.search[i].snippet);
             
         iTitle.appendChild(iLink);
         iColumn.appendChild(iTitle);

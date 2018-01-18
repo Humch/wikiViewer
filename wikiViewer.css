@@ -25,5 +25,10 @@ div.light-green {
 }
 
 div.result-content {
-    margin-top: 1vh;
+    margin-top: 3vh;
+}
+
+span.searchmatch {
+    color : darkgreen;
+    text-decoration: underline;
 }
