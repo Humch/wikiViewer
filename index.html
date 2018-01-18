@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wikipedia Viewer</title>
+    
+    <link rel="stylesheet" href="wikiViewer.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.css">
+    
+    <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+    
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    
+</head>
+
+<body>
+    <div id="main" class="container">
+        <div class="upper row align-items-center justify-content-center">
+            <div class="col-6">
+                <h1>Wikipedia Viewer</h1>
+            </div>
+        </div>
+        <div class="content row align-items-center justify-content-center">
+            <div class="col-6 light-green rounded">
+                <form id="wikiForm" class="form-inline m-4">
+                    <input class="form-control mr-3" type="search" placeholder="Search" aria-label="Search" name="submit_search" id="search">
+                    <button class="btn btn-success" type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+
+<script src="wikiViewer.js"></script>
+
+</html>

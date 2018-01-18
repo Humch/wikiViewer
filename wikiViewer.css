@@ -1,0 +1,29 @@
+
+body {
+    background-color: #09B27A !important;
+}
+
+div.container {
+    height: 95vh;
+}
+
+div.content {
+    margin-top: 30vh;
+}
+
+div.upper {
+    margin-top: 5vh;
+    font-family: 'Pacifico', cursive;
+}
+
+div.light-green {
+    background-color: #19FFB2;
+}
+
+.font-Pacifico {
+    font-family: 'Pacifico', cursive;
+}
+
+div.result-content {
+    margin-top: 1vh;
+}
